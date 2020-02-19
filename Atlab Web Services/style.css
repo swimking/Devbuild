@@ -1,0 +1,76 @@
+html ,body {
+    height: 100%;
+    width: 100%;
+    background-color: darkgray;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+#header h1{
+    font-size: 22px;
+}
+.link li{
+display: inline;
+margin: 35px; 
+color: ivory;
+font-family: Gill Sans MT Ext Condensed Bold;
+padding: 10px;
+font-size: 22px;
+}
+.link a{
+text-decoration: none;
+}
+#header{
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+   
+}
+.heading{
+    font-family: Algerian;
+    padding: 10px;
+    font-size: 40px
+}
+#container{
+    background-color: gray;
+    padding: 30px;
+    margin: 0px;
+    
+}
+#content a{
+margin: 35px;
+}
+.button_links a{
+   background-color: grey;
+   margin: 0px;
+   padding: 10px 7px;
+   border: 2px solid white;
+   text-decoration: none;
+   color: white;
+   font-weight: 800;
+   margin: 5px;
+}
+#about_us{
+    padding: 50px;
+    font-size: 20px;
+}
+.our_services ul{
+   
+    margin: 35px; 
+    padding: 10px;
+    font-size: 20px;  
+}
+.services li{
+    display: flex;
+    flex-direction: row;
+    display: inline;
+margin: 35px; 
+font-family: Gill Sans MT Ext Condensed Bold;
+padding: 10px;
+font-size: 22px;
+}
+#topnav{
+    background-image: url(tg.PNG);
+    background-repeat: no-repeat;
+}
