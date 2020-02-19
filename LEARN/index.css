@@ -1,0 +1,56 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 255, 90, .7);
+    color: white;
+    font-size: 25px;
+}
+.logo_name{
+    width: 350px;
+    height: 300px;
+    display: inline;
+}
+.nav_menu li{
+    display: inline;
+    padding: 10px;
+}
+.nav_menu a{
+    text-decoration: none;
+    color: white;
+}
+.what_we_do{
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    margin: 0;
+}
+.buttonlink{
+    border: 1px solid black;
+    padding: 10px, 20px;
+    font-size: 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 1px;
+}
+.view{
+    background-image: url(woman.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.what_we_do{
+    color: white;
+    background-color: rgb(0, 255, 90, .7);
+    height: 100%;
+    padding: 1px;
+}
+.button_links a{
+    color: white;
+}
+
