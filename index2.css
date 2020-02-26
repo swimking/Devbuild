@@ -1,0 +1,264 @@
+html,body{
+font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;    
+margin: 0px;
+padding: 0px;
+background-color:grey
+
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    background: rgb(0, 0, 0,.7);
+}
+
+#description{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    height: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.description_container{
+    background: rgb(0, 0, 0,.7);
+    padding: 1px;
+
+}
+#watch_1{
+    font-size:40px;
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+
+}
+#watch_2{
+    font-size: 30px;
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#top_container{
+    height: 100%;
+
+    
+}
+#button_container{
+    padding: 15px;
+}
+#sign_in{
+    margin-top: 33px;
+    border: 0px;
+    float: right;
+    background-color: red;
+    color: white;
+    padding: 15px;
+    width: 100px;
+    border-radius: 3px;
+      
+}
+#sign_in2{
+    border: 0px;
+    background-color: red;
+    color: white;
+    padding: 15px;
+    width: 250px;
+    border-radius: 3px;
+      
+    
+}
+.landing_page{
+    background-image: url(image/UG-en-20200210-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-size: cover;
+    height: 100%;
+    background-position:top;
+    background;
+}
+
+#watch_3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+svg{
+    fill: red;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+.logo_container{
+    width: 95%;
+    
+}
+#sign_up_box{
+    
+    text-align: center;
+
+    
+
+}
+
+#sign_up{
+    font-size: 30px;
+    text-align: center;
+    margin: 50px;
+    padding: 5px;
+    width: 50%;
+    color:grey;
+
+
+}
+#sign_up_input{
+    width: 500px;
+    padding: 15px;
+    border: 0px;
+    border-radius: 5px;
+
+}
+.display_1{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 95%;
+    margin-top: 10px;
+}
+
+  #enjoy_1{
+      font-size: 50px;
+      padding: 5px;
+
+  }
+  #enjoy_2{
+      font-size: 25px;
+      padding: 50px;
+  }
+
+  .display_2{
+      display: flex;
+      flex-direction: row;
+      color: white;
+      background-color: black;
+      height: 95%;
+      margin-top: 10px;
+  }
+  #download_1{
+      font-size: 40px;
+  }
+  #download_2{
+      font-size:25px ;
+      padding: 5px;
+  }
+
+  .display_3{
+      display: flex;
+      flex-direction: row;
+      color: white;
+      background-color: black;
+      padding: 50px;
+      height: 95%;
+      margin-top: 10px;
+  }
+  #stream_1{
+      font-size: 50px;
+      font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-weight: 700;
+  }
+  #stream_2{
+      font-size: 25px;
+      font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+.question_container{
+    color:white ;
+    background-color: black;
+    margin-bottom: 12px;
+    height: 95%;
+    margin-top: 10px;
+    
+
+}
+#questions{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+    
+#sample_questions{
+    margin-left: 300px;
+    margin-right: 300px;
+   
+}
+#qtn_1{
+    background-color: rgb(46, 42, 42);
+    padding: 0.02px;
+    margin: 5px;
+    padding-left: 20px;
+    
+}
+   
+#qtn_2{
+    background-color: rgb(46, 42, 42);
+    padding: 0.02px;
+    margin: 5px;
+    padding-left: 20px;
+  
+}
+#qtn_3{
+    background-color: rgb(46, 42, 42);
+    padding: 0.02px;
+    margin: 5px;
+    padding-left: 20px;
+}
+   
+#qtn_4{
+    background-color: rgb(46, 42, 42);
+    padding: 0.02px;
+    margin: 5px;
+    padding-left: 20px;
+   
+}
+
+#qtn_5{
+    background-color: rgb(46, 42, 42);
+    padding: 0.02px;
+    margin: 5px;
+    padding-left: 20px;
+}
+#sign_bottom{
+    text-align: center;
+    margin: 50px;
+}
+#sign_bottom_1{
+    text-align: center;
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding: 30px;
+    text-decoration: none;
+    height: 95%;
+    margin-top: 10px;
+}
+.links{
+    text-decoration: none;
+    color:rgb(116, 109, 109);
+    padding: 30px;
+    
+}
+.line{
+    background-color: rgb(82, 75, 75);
+    height: 0.02cm;
+}
+
+   
+   
+r
+
+
+
+
+
+

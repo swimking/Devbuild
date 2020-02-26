@@ -1,0 +1,87 @@
+html,body{
+    
+
+}
+#header{
+    display: flex;
+    flex-direction: row;
+}
+
+#description{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    height: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#watch_2{
+    font-size: 40px;
+}
+#top_container{
+    height: 100%;
+
+    
+}
+#sign_in{
+    margin-top: 37px;
+    border: 0px;
+    float: right;
+    background-color: red;
+    color: white;
+    padding: 15px;
+    width: 100px;
+    border-radius: 3px;
+      
+}
+.landing_page{
+    background-image: url(image/UG-en-20200210-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-size: cover;
+    height: 100%;
+    background-position:top;
+}
+
+#watch_3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+svg{
+    fill: red;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+.logo_container{
+    width: 95%;
+    
+}
+#sign_up_box{
+    display: flex;
+    flex-direction: row;
+    padding: px;
+
+}
+
+#sign_up{
+    font-size: 30px;
+    text-align: left;
+    margin: 50px;
+    padding: 5px;
+    width: 50%;
+    color:grey;
+    background-color: honeydew;
+}
+#sign_up3{
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+    width: 20%;
+    background-color: red;
+    color: white;
+    text-align: right;
+}
+
+
+
+
+
+
